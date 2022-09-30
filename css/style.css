@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,500;0,700;1,400&family=Work+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fffee0;
+}
+		/* Styling the body */
+		* {
+			padding: 0;
+			margin: 0;
+      font-family: 'Rubik', sans-serif;
+		}
+
+		/* Styling the background image by
+		giving its url and position */
+		.container {
+			height: 100vh;
+			width: 100%;		
+			/* Image used: */
+			background-size: cover;
+			background-position: center;
+			position: relative;
+		}
+
+		/* Styling the list tags to the
+		right of the navigation bar */
+		.nav li {
+			float: right;
+			list-style: none;
+		}
+
+		/* Styling the anchor tags of
+		the navigation bar */
+		.nav a {
+			list-style: none;
+			height: 50px;
+			line-height: 50px;
+			font-size: 1rem;
+			font-weight: 550;
+			display: block;
+			padding: 5px 35px;
+			color: crimson;
+			text-decoration: none;
+		}
+
+		/* Giving position and margin
+		to the content-div */
+		.content {
+			width: 100%;
+			position: absolute;
+			top: 32%;
+		}
+
+		/* Styling the left-col by
+		giving margin */
+		.left-col {
+			margin-left: 8%;
+		}
+
+		/* Styling the my sound placed
+		in the left-col */
+		.left-col h1 {
+			font-size: 50px;
+			color: crimson;
+		}
+
+		/* Styling the right-col */
+		.right-col {
+			float: right;
+			margin-left: 50%;
+/* 			margin-top: -5%; */
+			display: flex;
+			align-items: center;
+/*       background-color: grey; */
+		}
+
+		/* Styling the text in the right-col */
+		.right-col p {
+			font-size: 21px;
+			color: crimson;
+			font-weight: 650;
+			margin-right: 20px;
+		}
+
+		/* Styling the cursor type
+		of the icon to pointer */
+		#icon {
+			cursor: pointer;
+      width:20px;
+      height:20px;
+		}
+
+  .btn{
+    width: 120px;
+    height: 40px;
+    background-color: crimson;
+    color: white;
+    border-radius: 40px;
+    border: transparent;
+  }
+.btn:hover{
+  background-color: #c31336;
+}
